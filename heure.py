@@ -29,5 +29,4 @@ elif heures < 12:
 else:
     heure12 = "{:d}:{:02d}PM".format(heures - 12, minutes)
 
-# Afficher l'heure au format 12h
 print(heure12)
